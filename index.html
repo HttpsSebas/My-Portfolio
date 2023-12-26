@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seba's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Seba Infante</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="certifies.html">Certifies</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="index.html">About</a></li>
+                <a href="contact.html" class="btn"><button>Contact</button></a>
+            </ul>
+        </nav>
+        <a onclick="openNav()" href="#" class="menu"><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="projects.html">Projects</a>
+                <a href="certifies.html">Certifies</a>
+                <a href="services.html">Services</a>
+                <a href="index.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="inicio-content">
+        <h2>Sebastian, <br>
+            Frontend developer</h2>
+        <a href="projects.html" class="boton">Projects</a>
+    </div>
+
+   <section id="about">
+    <div class="about">
+       <p class="titulo">About me</p>
+       <h2>Hello, i'm <span>Sebastian Infante</span> </h2>
+       <h3>Web Designer</h3>
+       <p class="info">Student, 17 years old. From Argentina, Buenos Aires. <br>
+        Actually doing a bootcamp in Streambe.
+        Freelance designer over 1 year ago
+        Let's watch all my works</p>
+        <a href="PDF/Sebastian Infante.pdf" download="Seba-Infante.pdf">
+            Download CV
+        </a>
+    </div>
+   </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

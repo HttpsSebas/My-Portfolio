@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Seba Infante</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="certifies.html">Certifies</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="index.html">About</a></li>
+                <a href="contact.html" class="btn"><button>Contact</button></a>
+            </ul>
+        </nav>
+        <a onclick="openNav()" href="#" class="menu"><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="projects.html">Projects</a>
+                <a href="certifies.html">Certifies</a>
+                <a href="services.html">Services</a>
+                <a href="index.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Here you can see all my projects</h1>
+        <div class="miniatura" onmouseover="mostrarTexto()" onmouseout="ocultarTexto()">
+            <img src="trabajos/logo.png" alt="Miniatura">
+            <div class="texto-oculto" id="textoMiniatura"><p>This is my in-process E-commerce page, its basic and easy to understand, it took me 1 month to do it, actually doing little changes on it. </p></div>
+        </div>
+        <a href="https://httpssebas.github.io/Compus-gamer/"><button>Go to page</button></a>
+            
+
+
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

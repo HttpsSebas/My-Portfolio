@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seba's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        
+    </script>
+    <header class="header">
+        <div class="logo">
+            <h1>Seba Infante</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="certifies.html">Certifies</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="index.html">About</a></li>
+                <a href="contact.html" class="btn"><button>Contact</button></a>
+            </ul>
+        </nav>
+        <a onclick="openNav()" href="#" class="menu"><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="projects.html">Projects</a>
+                <a href="certifies.html">Certifies</a>
+                <a href="services.html">Services</a>
+                <a href="index.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
